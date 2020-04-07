@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {categoriesUnique, categoriesWithCounts} from './data';
 
 function App() {
+console.log(categoriesWithCounts)
   return (
     <div className="App">
       <header className="App-header">
