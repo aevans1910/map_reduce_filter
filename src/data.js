@@ -17,3 +17,8 @@ export const categoriesWithCounts = data.reduce((obj, item) => {
     return obj
 }, {})
 
+export const categoriesWithCountsArray = data.reduce((array, item) => {
+    for (let i = 0; i < array.length; i++) {
+        if 
+    }
+}, [])
